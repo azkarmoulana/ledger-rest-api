@@ -60,3 +60,4 @@
 
 ### Running unit tests  
 Unit tests are written using [Jest](https://jestjs.io/)
+1. Run `npm test` to run the unit tests
