@@ -56,4 +56,7 @@
         "amount": 942.86
     }
 ]
-```
+```  
+
+### Running unit tests  
+Unit tests are written using [Jest](https://jestjs.io/)
