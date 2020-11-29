@@ -24,16 +24,16 @@
   - `amount`: total amout of the line item (number)
 
 **Possible response codes**
-- `404`: API endpoint not found (check the correct API endpoint)
-- `400`: Bad request (check the query params provided)
+- `404`: API endpoint not found (check for the correct API endpoint)
+- `400`: Bad request (check for the query params provided)
 - `200`: Success
 
-**Sample request**  
+__*Sample request*__   
 - Request: 
 `/api/lease/ledger?start_date=2020-01-25T00:00:00.000Z&end_date=2020-05-08T00:00:00.000Z&frequency=MONTHLY&weekly_rent=550&timezone=Australia/Sydney`  
 
 - Response:  
-```
+```json
 [
     {
         "startDate": "2020-01-25T00:00:00.000Z",
