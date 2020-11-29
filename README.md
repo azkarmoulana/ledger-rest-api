@@ -28,3 +28,32 @@
 - `400`: Bad request (check the query params provided)
 - `200`: Success
 
+**Sample request**  
+- Request: 
+`/api/lease/ledger?start_date=2020-01-25T00:00:00.000Z&end_date=2020-05-08T00:00:00.000Z&frequency=MONTHLY&weekly_rent=550&timezone=Australia/Sydney`  
+
+- Response:  
+```
+[
+    {
+        "startDate": "2020-01-25T00:00:00.000Z",
+        "endDate": "2020-02-25T00:00:00.000Z",
+        "amount": 2389.88
+    },
+    {
+        "startDate": "2020-02-25T00:00:00.000Z",
+        "endDate": "2020-03-25T00:00:00.000Z",
+        "amount": 2389.88
+    },
+    {
+        "startDate": "2020-03-25T00:00:00.000Z",
+        "endDate": "2020-04-25T01:00:00.000Z",
+        "amount": 2389.88
+    },
+    {
+        "startDate": "2020-04-26T01:00:00.000Z",
+        "endDate": "2020-05-08T00:00:00.000Z",
+        "amount": 942.86
+    }
+]
+```
