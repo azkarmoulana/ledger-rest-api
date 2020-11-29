@@ -1,11 +1,11 @@
-## Ledger REST API
+# Ledger REST API
 ---
 
-#### How to run the app locally
+### How to run the app locally
 1. Run `npm install` to install all the required dependencies
 2. Run `npm run start` to start the application
 
-#### API endpoints
+### API endpoints
 **Request**
 
 - Path: `/api/lease/ledger?start_date={START_DATE}&end_date={END_DATE}&frequency={FREQUENCY}&weekly_rent={WEEKLY_RENT}&timezone={TIMEZONE}`  
