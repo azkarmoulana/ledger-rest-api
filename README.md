@@ -23,4 +23,8 @@
   - `endDate`: ending date of the line item (ISO String format)
   - `amount`: total amout of the line item (number)
 
+**Possible response codes**
+- `404`: API endpoint not found (check the correct API endpoint)
+- `400`: Bad request (check the query params provided)
+- `200`: Success
 
