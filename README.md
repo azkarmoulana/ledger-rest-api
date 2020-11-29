@@ -18,6 +18,9 @@
   - `timezone`: timezone of the property (as a string of TZ database name, ex :- `Australia/Sydney`)  
 
 **Response**
-
+- Array of line items, each item includes
+  - `startDate`: starting date of the line item (ISO String format)
+  - `endDate`: ending date of the line item (ISO String format)
+  - `amount`: total amout of the line item (number)
 
 
